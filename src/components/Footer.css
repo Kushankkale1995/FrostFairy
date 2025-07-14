@@ -1,0 +1,92 @@
+.footer {
+  background-color: #880e4f;
+  color: white;
+  padding: 3rem 2rem;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 4em;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  text-align: left;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 1rem;
+}
+
+.footer p,
+.footer li {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.3rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f48fb1;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #f48fb1;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #f48fb1;
+  color: #880e4f;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  color: white;
+}
+.footer-section p i {
+  margin-right: 8px;
+  color: #f8bbd0;
+}

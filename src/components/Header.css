@@ -1,0 +1,17 @@
+.header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+  color: #4a148c;
+  font-family: "Poppins", sans-serif;
+}
+
+.brand {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.slogan {
+  font-size: 1.25rem;
+  color: #880e4f;
+}
